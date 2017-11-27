@@ -1,0 +1,200 @@
+#0.0.9.59
+00000001|47 65 74 20 75 70 20 61 6E 64 20 6D 6F 76 65|Get up and move|Get up and move
+00000001|43 68 61 72 67 69 6E 67 2E 2E 2E|Charging...|Charging...
+00000001|42 61 74 74 65 72 79 20 63 68 61 72 67 65 64|Battery charged|Battery charged
+00000001|53 74 65 70 20 25 75|Step %u|Step %u
+00000001|68 61 73 20 62 65 65 6E 20 63 6F 6D 70 6C 65 74 65 64 00|has been completed|has been completed
+00000001|52 65 63 65 69 76 65 64 20 70 68 6F 6E 65 27 73 00 00 00|Received phone's|Received phone's
+00000001|70 61 69 72 69 6E 67 20 72 65 71 75 65 73 74|pairing request|pairing request
+00000001|41 6C 6C 6F 77 3F 00|Allow?|Allow?
+00000001|53 6E 6F 6F 7A 65 00|Snooze|Snooze
+00000001|53 74 6F 70 00 00 00|Stop|Stop
+00000001|48 61 6E 67 20 75 70|Hang up|Hang up
+00000001|49 67 6E 6F 72 65 00|Ignore|Ignore
+00000001|54 6F 6D 6F 72 72 6F 77 00 00 00|Tomorrow|Tomorrow
+00000001|54 6F 64 61 79 00 00|Today|Today
+00000001|45 76 65 72 79 20 64 61 79 00 00|Every day|Every day
+00000001|4D 6F 6E 20 74 6F 20 46 72 69 00|Mon to Fri|Mon to Fri
+00000001|45 76 65 72 79 20 00|Every |Every 
+00000001|43 6C 65 61 72 00 00|Clear|Clear
+00000001|73 65 73 73 69 6F 6E|session|session
+00000001|6F 76 65 72 20 31 68|over 1h|over 1h
+00000001|43 6F 75 6C 64 6E 27 74 20 75 70 64 61 74 65|Couldn't update|Couldn't update
+00000001|44 49 41 4C 20 75 70 64 61 74 65 20 66 61 69 6C 00 00 00|DIAL update fail|DIAL update fail
+00000001|57 61 74 63 68 20 75 70 64 61 74 65 64 00 00|Watch updated|Watch updated
+00000001|52 65 73 6F 75 72 63 65 73 20 75 70 64 61 74 65 64 00 00|Resources updated|Resources updated
+00000001|41 2D 47 50 53 20 75 70 64 61 74 65 64 00 00|A-GPS updated|A-GPS updated
+00000001|47 50 53 20 75 70 64 61 74 65 64|GPS updated|GPS updated
+00000001|44 49 41 4C 20 75 70 64 61 74 65 64 00 00 00|DIAL updated|DIAL updated
+00000001|73 75 63 63 65 73 73 66 75 6C 6C 79 00 00 00|successfully|successfully
+00000001|55 70 64 61 74 69 6E 67 20 47 50 53 2E 2E 2E|Updating GPS...|Updating GPS...
+00000001|55 70 64 61 74 69 6E 67 20 44 49 41 4C 2E 2E 2E 00 00 00|Updating DIAL...|Updating DIAL...
+00000001|55 70 64 61 74 69 6E 67 2E 2E 2E|Updating...|Updating...
+00000001|55 70 64 61 74 69 6E 67 20 72 65 73 6F 75 72 63 65 73 2E 2E 2E 00 00|Updating resources...|Updating resources...
+00000001|55 70 64 61 74 69 6E 67 20 41 2D 47 50 53 2E 2E 2E 00 00|Updating A-GPS...|Updating A-GPS...
+00000001|43 6F 6E 6E 65 63 74 20 74 6F 20 74 68 65 20 61 70 70 00|Connect to the app|Connect to the app
+00000001|61 6E 64 20 61 75 74 6F 6D 61 74 69 63 61 6C 6C 79 00 00|and automatically|and automatically
+00000001|75 70 64 61 74 65 20 41 2D 47 50 53 20 74 6F 20 67 65 74|update A-GPS to get|update A-GPS to get
+00000001|6C 6F 63 61 74 69 6F 6E 20 66 61 73 74 65 72|location faster|location faster
+00000001|46 61 73 74 65 6E 20 74 68 65 20 77 61 74 63 68 00 00 00|Fasten the watch|Fasten the watch
+00000001|74 6F 20 67 65 74 20 6D 6F 72 65 20 61 63 63 75 72 61 74 65 00 00 00|to get more accurate|to get more accurate
+00000001|68 65 61 72 74 20 72 61 74 65 20 64 61 74 61|heart rate data|heart rate data
+00000001|47 65 74 74 69 6E 67 20 6C 6F 63 61 74 69 6F 6E 20 77 69 74 68 00 00|Getting location with|Getting location with
+00000001|47 50 53 2E 2E 2E 20 53 69 67 6E 61 6C 20 69 73 20 62 65 74 74 65 72|GPS... Signal is better|GPS... Signal is better
+00000001|69 6E 20 74 68 65 20 6F 70 65 6E 20 61 72 65 61 00 00 00|in the open area|in the open area
+00000001|47 6F 74 20 6C 6F 63 61 74 69 6F 6E 00 00 00|Got location|Got location
+00000001|73 75 63 63 65 73 73 66 75 6C 6C 79 00 00 00|successfully|successfully
+00000001|43 61 6E 27 74 20 74 72 61 63 74 20 61 63 74 69 76 69 74 79 00 00 00|Can't tract activity|Can't tract activity
+00000001|72 6F 75 74 65 73 20 62 65 66 6F 72 65 20 67 65 74 74 69 6E 67 00 00|routes before getting|routes before getting
+00000001|74 68 65 20 6C 6F 63 61 74 69 6F 6E 00 00 00|the location|the location
+00000001|53 65 74 20 69 74 65 6D 73 20 74 6F 20 71 75 69 63 6B 00|Set items to quick|Set items to quick
+00000001|73 74 61 72 74 20 62 79 20 6C 6F 6E 67 20 70 72 65 73 73|start by long press|start by long press
+00000001|4F 75 74 64 6F 6F 72|Outdoor|Outdoor
+00000001|72 75 6E 6E 69 6E 67|running|running
+00000001|43 79 63 6C 69 6E 67|Cycling|Cycling
+00000001|57 61 6C 6B 69 6E 67|Walking|Walking
+00000001|52 65 6D 61 69 6E 69 6E 67 20 62 61 74 74 65 72 79 20 69 73 20 25 64 25 25 2C 20 63 68 61 72 67 65 20 74 68 65 20 77 61 74 63 68 2E 00 00 00|Remaining battery is %d%%, charge the watch|Remaining battery is %d%%, charge the watch
+00000001|43 68 61 72 67 65 20 74 68 65 20 77 61 74 63 68 00 00 00|Charge the watch|Charge the watch
+00000001|42 61 74 74 65 72 79 20 69 73 20 6C 6F 77 65 72 00 00 00|Battery is lower|Battery is lower
+00000001|74 68 61 6E 20 25 64 25 25 00 00|than %d%%|than %d%%
+00000001|4C 6F 6F 6B 69 6E 67 20 66 6F 72 20 64 65 76 69 63 65 00|Looking for device|Looking for device
+00000001|46 6F 75 6E 64 20 64 65 76 69 63 65 00 00 00|Found device|Found device
+00000001|50 68 6F 6E 65 20 69 73 20 72 69 6E 67 69 6E 67 00 00 00|Phone is ringing|Phone is ringing
+00000001|53 74 6F 70 20 72 69 6E 67 00 00|Looking for device|Stop ring
+00000001|43 6F 6E 6E 65 63 74 65 64 20 66 61 69 6C 00|Connected fail|Connected fail
+00000001|4C 6F 6E 67 20 70 72 65 73 73 20 74 68 65 00|Long press the|Long press the
+00000001|62 75 74 74 6F 6E 00|button|button
+00000001|4C 6F 6E 67 20 70 72 65 73 73 20 74 68 65 20 77 61 74 63 68 00 00 00|Long press the watch|Long press the watch
+00000001|74 6F 20 73 74 6F 70|to stop|to stop
+00000001|57 68 65 6E 20 77 65 61 72 69 6E 67 20 74 68 65 00 00 00|When wearing the|When wearing the
+00000001|77 61 74 63 68 2C 20 74 75 72 6E 20 6F 6E 20 44 4E 44 00|watch, turn on DND|watch, turn on DND
+00000001|6D 6F 64 65 20 61 75 74 6F 6D 61 74 69 63 61 6C 6C 79 00|mode automatically|mode automatically
+00000001|61 66 74 65 72 20 79 6F 75 20 66 65 6C 6C 20 61 73 6C 65 65 70 00 00|after you fell asleep|after you fell asleep
+00000001|43 61 6C 69 62 72 61 74 65 20 72 75 6E 6E 69 6E 67 00 00|Calibrate running|Calibrate running
+00000001|64 69 73 74 61 6E 63 65 00 00 00|distance|distance
+00000001|57 6F 6E 27 74 20 73 61 76 65 20 64 75 65 20 74 6F 00 00|Won't save due to|Won't save due to
+00000001|74 68 65 20 64 69 73 74 61 6E 63 65 20 69 73 20 74 6F 6F|the distance is too|the distance is too
+00000001|73 68 6F 72 74 2C 20 45 6E 64 3F|short, End?|short, End?
+00000001|4E 6F 74 20 65 6E 6F 75 67 68 20 73 70 61 63 65 2C 00 00|Not enough space,|Not enough space,
+00000001|63 6F 6E 74 69 6E 75 65 3F 00 00|continue?|continue?
+00000001|41 63 74 69 76 69 74 79 20 64 61 74 61 20 6E 6F 74 00 00|Activity data not|Activity data not
+00000001|73 79 6E 63 65 64 20 6D 61 79 20 62 65 20 63 6F 76 65 72 65 64 00 00|synced may be covered|synced may be covered
+00000001|69 66 20 79 6F 75 20 63 6F 6E 74 69 6E 75 65|if you continue|if you continue
+00000001|50 61 75 73 65 00 00|Pause|Pause
+00000001|61 75 74 6F 6D 61 74 69 63 61 6C 6C 79 00 00|automatically|automatically
+00000001|48 65 61 72 74 20 72 61 74 65 20 61 6C 65 72 74 00 00 00|Heart rate alert|Heart rate alert
+00000001|50 61 63 65 20 61 6C 65 72 74 00|Pace alert|Pace alert
+00000001|4E 6F 20 73 74 6F 72 61 67 65 20 73 70 61 63 65 20 6C 65 66 74 00 00|No storage space left|No storage space left
+00000001|63 61 6E 27 74 20 72 65 63 6F 72 64 20 6D 6F 72 65 00 00|can't record more|can't record more
+00000001|53 74 6F 72 61 67 65 20 73 70 61 63 65 20 69 73 00 00 00|Storage space is|Storage space is
+00000001|61 62 6F 75 74 20 74 6F 20 62 65 20 66 75 6C 6C 00 00 00|about to be full|about to be full
+00000001|73 79 6E 63 20 79 6F 75 72 20 64 61 74 61 00|sync your data|sync your data
+00000001|4E 6F 74 69 66 79 20 77 68 65 6E 20 68 65 61 72 74 00 00|Notify when heart|Notify when heart
+00000001|72 61 74 65 20 69 73 20 74 6F 6F 20 68 69 67 68 00 00 00|rate is too high|rate is too high
+00000001|4E 6F 74 69 66 79 20 69 66 20 73 6C 6F 77 65 72 20 74 68 61 6E 00 00|Notify if slower than|Notify if slower than
+00000001|56 69 62 72 61 74 65 20 77 68 65 6E 20 79 6F 75 00 00 00|Vibrate when you|Vibrate when you
+00000001|72 65 61 63 68 20 65 76 65 72 79 20 25 64 20 6B 6D 00 00|reach every %d km|reach every %d km
+00000001|72 65 61 63 68 20 65 76 65 72 79 20 25 64 20 6D 69 00 00|reach every %d mi|reach every %d mi
+00000001|53 65 6C 65 63 74 20 61 20 44 4E 44 20 6D 6F 64 65 00 00|Select a DND mode|Select a DND mode
+00000001|57 65 64|Wed|Wed
+00000001|54 75 65|Tue|Tue
+00000001|46 72 69|Fri|Fri
+00000001|4D 6F 6E|Mon|Mon
+00000001|53 75 6E|Sun|Sun
+00000001|53 61 74|Sat|Sat
+00000001|54 68 75|Thu|Thu
+00000001|44 4E 44 20 69 73 20 6F 66 66 00|DND is off|DND is off
+00000001|53 6D 61 72 74 20 44 4E 44 20 69 73 20 6F 6E|Smart DND is on|Smart DND is on
+00000001|44 4E 44 20 69 73 20 6F 6E 00 00|DND is on|DND is on
+00000001|4E 6F 20 61 63 74 69 76 69 74 79 20 64 61 74 61 00 00 00|No activity data|No activity data
+00000001|64 61 74 61 20 69 6E 20 74 68 65 20 61 70 70|data in the app|data in the app
+00000001|47 6F 74 20 69 74 00|Got it|Got it
+00000001|41 63 74 69 76 69 74 79 20 68 69 73 74 6F 72 79 00 00 00|Activity history|Activity history
+00000001|56 69 65 77 20 6D 6F 72 65 20 61 63 74 69 76 69 74 79 00|View more activity|View more activity
+00000001|6D 69 00|mi|mi
+00000001|6B 6D 00|km|km
+00000001|62 70 6D|bpm|bpm
+00000001|73 74 65 70 73 00 00|steps|steps
+00000001|6B 63 61 6C 00 00 00|kcal|kcal
+00000001|46 69 72 6D 77 61 72 65 20 76 65 72 73 69 6F 6E 00 00 00|Firmware version|Firmware version
+00000001|42 6C 75 65 74 6F 6F 74 68 20 61 64 64 72 65 73 73 00 00|Bluetooth address|Bluetooth address
+00000001|4A 75 73 74 20 61 20 73 65 63 2E 2E 2E 00 00|Just a sec...|Just a sec...
+00000001|54 75 72 6E 20 6F 66 66 20 74 68 65 20 77 61 74 63 68 3F|Turn off the watch?|Turn off the watch?
+00000001|4F 4B 00|OK|OK
+00000001|43 61 6E 63 65 6C 00|Cancel|Cancel
+00000001|41 70 70 6C 79 20 74 68 69 73 20 77 61 74 63 68 20 66 61 63 65 3F 00|Apply this watch face?|Apply this watch face?
+00000001|77 61 74 63 68 20 66 61 63 65 00|watch face|watch face
+00000001|53 65 74 20 74 68 65 20 77 61 74 63 68 20 66 61 63 65 00|Set the watch face|Set the watch face
+00000001|41 64 6A 75 73 74 20 62 72 69 67 68 74 6E 65 73 73 00 00|Adjust brightness|Adjust brightness
+00000001|46 69 6E 64 20 64 65 76 69 63 65|Find device|Find device
+00000001|54 75 72 6E 20 6F 66 66 00 00 00|Turn off|Turn off
+00000001|41 62 6F 75 74 00 00|About|About
+00000001|4D 61 72 6B 20 61 6C 6C 20 61 73 20 72 65 61 64 00 00 00|Mark all as read|Mark all as read
+00000001|4E 6F 20 6E 65 77 20 6E 6F 74 69 66 69 63 61 74 69 6F 6E 73 00 00 00|No new notifications|No new notifications
+00000001|41 20 6E 65 77 20 6D 65 73 73 61 67 65 20 69 73 20 72 65 63 65 69 76 65 64 2C 20 76 69 65 77 20 69 74 20 6F 6E 20 74 68 65 20 70 68 6F 6E 65|A new message is received, view it on the phone|A new message is received, view it on the phone
+00000001|49 6E 63 6F 6D 69 6E 67 20 63 61 6C 6C 73 00|Incoming calls|Incoming calls
+00000001|53 74 6F 70 20 74 68 65 20 73 74 6F 70 77 61 74 63 68 3F|Stop the stopwatch?|Stop the stopwatch?
+00000001|4F 6B 00|Ok|Ok
+00000001|73 65 63|sec|sec
+00000001|6D 69 6E|min|min
+00000001|54 69 6D 65 27 73 20 75 70 00 00|Time's up|Time's up
+00000001|53 74 6F 70 20 74 68 65 20 63 6F 75 6E 74 64 6F 77 6E 3F|Stop the countdown?|Stop the countdown?
+00000001|74 6F 20 63 61 6C 69 62 72 61 74 65 00 00 00|to calibrate|to calibrate
+00000001|46 6F 6C 6C 6F 77 20 74 68 65 20 70 61 74 74 65 72 6E 00|Follow the pattern|Follow the pattern
+00000001|4E 45 00|NE|NE
+00000001|53 45 00|SE|SE
+00000001|45 00 00|E|E
+00000001|4E 00 00|N|N
+00000001|53 00 00|S|S
+00000001|4E 57 00|NW|NW
+00000001|53 57 00|SW|SW
+00000001|57 00 00|W|W
+00000001|41 6C 74 69 74 75 64 65 00 00 00|Altitude|Altitude
+00000001|28 6D 29|(m)|(m)
+00000001|50 72 65 73 73 75 72 65 00 00 00|Pressure|Pressure
+00000001|28 68 50 61 29 00 00|(hPa)|(hPa)
+00000001|45 4C 00|EL|EL
+00000001|4E 4C 00|NL|NL
+00000001|53 4C 00|SL|SL
+00000001|57 4C 00|WL|WL
+00000001|6C 6F 61 64 69 6E 67|loading|loading
+00000001|44 6F 77 6E 68 69 6C 6C 00 00 00|Downhill|Downhill
+00000001|55 70 68 69 6C 6C 00|Uphill|Uphill
+00000001|53 75 73 70 65 6E 64 65 64 00 00|Suspended|Suspended
+00000001|45 6E 64|End|End
+00000001|43 6F 6E 74 69 6E 75 65 00 00 00|Continue|Continue
+00000001|45 6E 64 3F 00 00 00|End?|End?
+00000001|57 61 6C 6B 69 6E 67 3A 20 00 00|Walking: |Walking: 
+00000001|43 79 63 6C 69 6E 67 3A 20 00 00|Cycling: |Cycling: 
+00000001|52 75 6E 6E 69 6E 67 3A 20 00 00|Running: |Running: 
+00000001|20 6D 69| mi| mi
+00000001|54 72 65 61 64 6D 69 6C 6C 00 00|Treadmill|Treadmill
+00000001|53 70 65 65 64 00 00|Speed|Speed
+00000001|41 76 67 20 73 70 65 65 64 00 00|Avg speed|Avg speed
+00000001|42 75 72 6E 65 64 00|Burned|Burned
+00000001|50 61 63 65 00 00 00|Pace|Pace
+00000001|54 69 6D 65 00 00 00|Time|Time
+00000001|52 69 64 69 6E 67 20 74 69 6D 65|Riding time|Riding time
+00000001|54 6F 74 61 6C 20 74 69 6D 65 00|Total time|Total time
+00000001|48 65 61 72 74 20 72 61 74 65 00|Heart rate|Heart rate
+00000001|54 6F 70 20 73 70 65 65 64 00 00|Top speed|Top speed
+00000001|43 6C 69 6D 62 65 64 20 64 69 73 74 61 6E 63 65 00 00 00|Climbed distance|Climbed distance
+00000001|53 74 72 69 64 65 00|Stride|Stride
+00000001|53 74 65 70 73 00 00|Steps|Steps
+00000001|53 74 65 70 20 66 72 65 71 75 65 6E 63 79 00|Step frequency|Step frequency
+00000001|64 65 6C 65 74 65 00|delete|delete
+00000001|41 75 74 6F 00 00 00|Auto|Auto
+00000001|4E 6F 77|Now|Now
+00000001|53 6B 69 70 00 00 00|Skip|Skip
+00000001|53 74 61 72 74 00 00|Start|Start
+00000001|4F 66 66|Off|Off
+00000001|4F 6E 00|On|On
+00000001|44 69 73 74 61 6E 63 65 20 61 6C 65 72 74 00|Distance alert|Distance alert
+00000001|53 70 65 65 64 20 69 6E 20 6C 61 73 74 20 6D 69 6C 65 00|Speed in last mile|Speed in last mile
+00000001|50 61 63 65 20 69 6E 20 6C 61 73 74 20 6D 69 6C 65 00 00|Pace in last mile|Pace in last mile
+00000001|48 65 61 72 74 20 72 61 74 65 20 69 73 20 74 6F 6F 20 68 69 67 68 00|Heart rate is too high|Heart rate is too high
+00000001|53 70 65 65 64 20 69 6E 20 6C 61 73 74 20 6B 6D 00 00 00|Speed in last km|Speed in last km
+00000001|50 61 63 65 20 69 6E 20 6C 61 73 74 20 6B 6D|Pace in last km|Pace in last km
+00000001|50 61 63 65 20 69 73 20 74 6F 6F 20 73 6C 6F 77 00 00 00|Pace is too slow|Pace is too slow
+00000001|4F 70 65 6E 00 00 00|Open|Open
+00000001|50 68 6F 6E 65 20 61 6C 61 72 6D 20 73 6F 75 6E 64 73 00|Phone alarm sounds|Phone alarm sounds
