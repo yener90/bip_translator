@@ -1,4 +1,4 @@
-#0.0.9.59
+#0.1.0.33
 00000001|47 65 74 20 75 70 20 61 6E 64 20 6D 6F 76 65|Get up and move|Get up and move
 00000001|43 68 61 72 67 69 6E 67 2E 2E 2E|Charging...|Charging...
 00000001|42 61 74 74 65 72 79 20 63 68 61 72 67 65 64|Battery charged|Battery charged
