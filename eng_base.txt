@@ -127,6 +127,7 @@
 00000001|53 65 74 20 74 68 65 20 77 61 74 63 68 20 66 61 63 65 00|Set the watch face|Set the watch face
 00000001|41 64 6A 75 73 74 20 62 72 69 67 68 74 6E 65 73 73 00 00|Adjust brightness|Adjust brightness
 00000001|46 69 6E 64 20 64 65 76 69 63 65|Find device|Find device
+00000001|46 61 63 74 6F 72 79 20 52 65 73 65 74 00 00|Factory Reset|Factory Reset
 00000001|54 75 72 6E 20 6F 66 66 00 00 00|Turn off|Turn off
 00000001|41 62 6F 75 74 00 00|About|About
 00000001|4D 61 72 6B 20 61 6C 6C 20 61 73 20 72 65 61 64 00 00 00|Mark all as read|Mark all as read
@@ -198,3 +199,4 @@
 00000001|50 61 63 65 20 69 73 20 74 6F 6F 20 73 6C 6F 77 00 00 00|Pace is too slow|Pace is too slow
 00000001|4F 70 65 6E 00 00 00|Open|Open
 00000001|50 68 6F 6E 65 20 61 6C 61 72 6D 20 73 6F 75 6E 64 73 00|Phone alarm sounds|Phone alarm sounds
+00000001|41 6C 6C 20 64 61 74 61 20 77 69 6C 6C 20 62 65 20 72 65 73 65 74 2C|All data will be reset,|All data will be reset,
