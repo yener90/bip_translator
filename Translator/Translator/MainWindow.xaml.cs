@@ -216,9 +216,12 @@ namespace Translator
 
                 for (int x = 1; x < readText.Length; x++)
                 {
-
                     String[] substrings1 = readText[x].Split(delimiter);
-                    String[] substrings2 = readTranslatedText[x - z].Split(delimiter);
+                    String[] substrings2;
+                    if (readTranslatedText.Length > x - z)
+                        substrings2 = readTranslatedText[x - z].Split(delimiter);
+                    else
+                        substrings2 = new string[4];
 
                     bool translation_active2 = substrings1[1] == substrings2[1];
                     if (!translation_active2) z++;
@@ -308,7 +311,7 @@ namespace Translator
                     {
                         curtranslation = TranslatedText[x].Text;
                         Encoding.UTF8.GetBytes(curtranslation).CopyTo(translated, 0);
-                    }));                 
+                    }));
 
                     foreach (var position in Locate(data, pattern))
                     {
