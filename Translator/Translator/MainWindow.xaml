@@ -10,6 +10,7 @@
         <Grid x:Name="TheGrid">
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"/>
+                <RowDefinition Height="20"/>
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
@@ -36,8 +37,10 @@
                 <Button Grid.Column="4" x:Name="PatchFirmwareBtn" Content="Patch Firmware" IsEnabled="False" Click="PatchFirmwareBtn_Click" Margin="5"/>
                 <ProgressBar x:Name="Progress" Grid.Column="5" Margin="5" />
             </Grid>
-
-            <Label Content="Original" Grid.Row="1">
+            <StackPanel Grid.ColumnSpan="5" Grid.Row="1" Orientation="Horizontal" >
+                <CheckBox x:Name="ddmm_patch" Content="Apply dd/mm patch " />
+            </StackPanel>
+            <Label Content="Original" Grid.Row="2">
                 <Label.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="White" Offset="0"/>
@@ -45,7 +48,7 @@
                     </LinearGradientBrush>
                 </Label.Background>
             </Label>
-            <Label Content="English" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            <Label Content="English" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2">
                 <Label.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="White" Offset="0"/>
@@ -53,7 +56,7 @@
                     </LinearGradientBrush>
                 </Label.Background>
             </Label>
-            <Label Content="Translated" Grid.Row="1" Grid.Column="3" >
+            <Label Content="Translated" Grid.Row="2" Grid.Column="3" >
                 <Label.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="White" Offset="0"/>
@@ -61,7 +64,7 @@
                     </LinearGradientBrush>
                 </Label.Background>
             </Label>
-            <Label Content="Left" Grid.Row="1" Grid.Column="4" >
+            <Label Content="Left" Grid.Row="2" Grid.Column="4" >
                 <Label.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="White" Offset="0"/>
@@ -69,19 +72,19 @@
                     </LinearGradientBrush>
                 </Label.Background>
             </Label>
-            <StackPanel x:Name="Original" Grid.Row="2" >
+            <StackPanel x:Name="Original" Grid.Row="3" >
 
             </StackPanel>
-            <StackPanel x:Name="English" Grid.Row="2" Grid.Column="1">
+            <StackPanel x:Name="English" Grid.Row="3" Grid.Column="1">
 
             </StackPanel>
-            <StackPanel x:Name="CopyButtons" Grid.Row="2" Grid.Column="2">
+            <StackPanel x:Name="CopyButtons" Grid.Row="3" Grid.Column="2">
 
             </StackPanel>
-            <StackPanel x:Name="Translated" Grid.Row="2" Grid.Column="3" >
+            <StackPanel x:Name="Translated" Grid.Row="3" Grid.Column="3" >
 
             </StackPanel>
-            <StackPanel x:Name="LengthTextR" Grid.Row="2" Grid.Column="4" >
+            <StackPanel x:Name="LengthTextR" Grid.Row="3" Grid.Column="4" >
 
             </StackPanel>
         </Grid>

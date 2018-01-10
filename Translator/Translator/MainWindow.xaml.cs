@@ -23,8 +23,6 @@ namespace Translator
     public partial class MainWindow : Window
     {
 
-
-
         List<TextBox> OriginalText = new List<TextBox>();
         List<TextBox> EnglishText = new List<TextBox>();
         List<Button> CopyButton = new List<Button>();
@@ -37,6 +35,8 @@ namespace Translator
         Char delimiter = '|';
         string filename;
         string fwname;
+        bool ddmm_patch_check;
+
         /*
                 byte[][] fix_bytes = new byte[][] {
                     new byte[] { 0x10, 0x0, 0x33, 0x21 }, new byte[] { 0x10, 0x0, 0x0, 0x21 },
@@ -69,7 +69,27 @@ namespace Translator
             new byte[] { 0x7A, 0x22, 0x35, 0x21 }, new byte[] {  0x7A, 0x22, 0x0, 0x21 },
             new byte[] { 0x7A, 0x22, 0x38, 0x21 }, new byte[] {  0x7A, 0x22, 0x0, 0x21 },
             new byte[] { 0x7A, 0x22, 0x39, 0x21 }, new byte[] {  0x7A, 0x22, 0x0, 0x21 },
+
              };
+
+        byte[][] fix_date = new byte[][] {
+            new byte[] {0xA8, 0x78, 0x0A, 0x21, 0x6A}, new byte[] {0xE8, 0x78, 0x0A, 0x21, 0x6A},
+            new byte[] {0xA8, 0x78, 0xB0, 0xFB, 0xF1}, new byte[] {0xE8, 0x78, 0xB0, 0xFB, 0xF1},
+            new byte[] {0xEB, 0x78, 0x40, 0x1C, 0x0A}, new byte[] {0xAB, 0x78, 0x40, 0x1C, 0x0A},
+            new byte[] {0xEB, 0x78, 0x40, 0x1C, 0xB3}, new byte[] {0xAB, 0x78, 0x40, 0x1C, 0xB3},
+            new byte[] {0xA8, 0x7D, 0x0A, 0x21, 0xB0}, new byte[] {0xE8, 0x7D, 0x0A, 0x21, 0xB0},
+            new byte[] {0xEB, 0x7D, 0x40, 0x1C, 0x0A}, new byte[] {0xAB, 0x7D, 0x40, 0x1C, 0x0A},
+            new byte[] {0xEB, 0x7D, 0x40, 0x1C, 0xB3}, new byte[] {0xAB, 0x7D, 0x40, 0x1C, 0xB3},
+            new byte[] {0xE3, 0x78, 0xA2, 0x78, 0x19}, new byte[] {0xE2, 0x78, 0xA2, 0x78, 0x19},
+            new byte[] {0xA2, 0x78, 0x19, 0xA1, 0x68}, new byte[] {0xA3, 0x78, 0x19, 0xA1, 0x68},
+            new byte[] {0xE3, 0x7D, 0xA2, 0x7D, 0x2F}, new byte[] {0xE2, 0x7D, 0xA2, 0x7D, 0x2F},
+            new byte[] {0xA2, 0x7D, 0x2F, 0xA1, 0x05}, new byte[] {0xA3, 0x7D, 0x2F, 0xA1, 0x05},
+            new byte[] {0xE3, 0x78, 0xA2, 0x78, 0x44}, new byte[] {0xA3, 0x78, 0xA2, 0x78, 0x44},
+            new byte[] {0xA2, 0x78, 0x44, 0xA1, 0x03}, new byte[] {0xE2, 0x78, 0x44, 0xA1, 0x03},
+            new byte[] {0xE3, 0x78, 0xA2, 0x78, 0x33}, new byte[] {0xA3, 0x78, 0xA2, 0x78, 0x33},
+            new byte[] {0xA2, 0x78, 0x33, 0xA1, 0x03}, new byte[] {0xE2, 0x78, 0x33, 0xA1, 0x03},
+             };
+
 
         #region BitTools
 
@@ -327,7 +347,7 @@ namespace Translator
                     Progress.Value++;
                 }));
             }
-
+            
             for (int x = 0; x < fix_bytes.Length; x = x + 2)
             {
 
@@ -337,11 +357,23 @@ namespace Translator
                 }
             }
 
+            if (ddmm_patch_check == true)
+            {
+                for (int x = 0; x < fix_date.Length; x = x + 2)
+                {
+
+                    foreach (var position in Locate(data, fix_date[x]))
+                    {
+                        fix_date[x + 1].CopyTo(data, position);
+                    }
+                }
+            }
             Dispatcher.BeginInvoke(new Action(() =>
             {
                 File.WriteAllBytes(Path.GetDirectoryName(fwname) + @"\" + Path.GetFileNameWithoutExtension(fwname) + "_" + Language.Text + ".fw", data);
                 SaveBtn.IsEnabled = true;
                 PatchFirmwareBtn.IsEnabled = true;
+                ddmm_patch.IsEnabled = true;
             }));
         }
 
@@ -349,6 +381,9 @@ namespace Translator
         {
             SaveBtn.IsEnabled = false;
             PatchFirmwareBtn.IsEnabled = false;
+            ddmm_patch.IsEnabled = false;
+
+            ddmm_patch_check = ddmm_patch.IsChecked == true;
 
             // Configure open file dialog box
             Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
@@ -375,6 +410,7 @@ namespace Translator
             {
                 SaveBtn.IsEnabled = true;
                 PatchFirmwareBtn.IsEnabled = true;
+                ddmm_patch.IsEnabled = true;
             }
         }
 
