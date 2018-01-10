@@ -1,4 +1,4 @@
-#0.1.0.33
+#0.1.0.43
 00000001|47 65 74 20 75 70 20 61 6E 64 20 6D 6F 76 65|Get up and move|Get up and move
 00000001|43 68 61 72 67 69 6E 67 2E 2E 2E|Charging...|Charging...
 00000001|42 61 74 74 65 72 79 20 63 68 61 72 67 65 64|Battery charged|Battery charged
@@ -131,6 +131,7 @@
 00000001|54 75 72 6E 20 6F 66 66 00 00 00|Turn off|Turn off
 00000001|41 62 6F 75 74 00 00|About|About
 00000001|4D 61 72 6B 20 61 6C 6C 20 61 73 20 72 65 61 64 00 00 00|Mark all as read|Mark all as read
+00000001|44 65 6C 65 74 65 64|Deleted|Deleted
 00000001|4E 6F 20 6E 65 77 20 6E 6F 74 69 66 69 63 61 74 69 6F 6E 73 00 00 00|No new notifications|No new notifications
 00000001|41 20 6E 65 77 20 6D 65 73 73 61 67 65 20 69 73 20 72 65 63 65 69 76 65 64 2C 20 76 69 65 77 20 69 74 20 6F 6E 20 74 68 65 20 70 68 6F 6E 65|A new message is received, view it on the phone|A new message is received, view it on the phone
 00000001|49 6E 63 6F 6D 69 6E 67 20 63 61 6C 6C 73 00|Incoming calls|Incoming calls
