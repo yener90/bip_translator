@@ -36,6 +36,7 @@ namespace Translator
         string filename;
         string fwname;
         bool ddmm_patch_check;
+        string datefn = "";
 
         /*
                 byte[][] fix_bytes = new byte[][] {
@@ -53,6 +54,7 @@ namespace Translator
         */
         byte[][] fix_bytes = new byte[][] {
             new byte[] { 0x03, 0xD3, 0x20, 0x78 }, new byte[] {  0x02, 0xE0, 0x20, 0x78 }, // eng forcer
+            new byte[] { 0x03, 0xD1, 0x20, 0x78 }, new byte[] {  0x02, 0xE0, 0x20, 0x78 }, // eng forcer v0.1.0.80
 
             new byte[] { 0x6A, 0x22, 0x0F, 0x21 }, new byte[] {  0x6A, 0x22, 0x0, 0x21 },
             new byte[] { 0x6A, 0x22, 0x13, 0x21 }, new byte[] {  0x6A, 0x22, 0x0, 0x21 },
@@ -69,7 +71,7 @@ namespace Translator
             new byte[] { 0x7A, 0x22, 0x35, 0x21 }, new byte[] {  0x7A, 0x22, 0x0, 0x21 },
             new byte[] { 0x7A, 0x22, 0x38, 0x21 }, new byte[] {  0x7A, 0x22, 0x0, 0x21 },
             new byte[] { 0x7A, 0x22, 0x39, 0x21 }, new byte[] {  0x7A, 0x22, 0x0, 0x21 },
-
+            //new byte[] { 0x78, 0x21, 0xF2, 0xE7, 0x7A}, new byte[] {0x72, 0x21, 0xF2, 0xE7, 0x7A},
              };
 
         byte[][] fix_date = new byte[][] {
@@ -193,6 +195,11 @@ namespace Translator
             int length = utf8.Length - y;
             TextAvaiLength[x].Text = (-length).ToString();
 
+            if (((TextBox)sender).Text.Length > 0 && TranslatedText[x].Background != Brushes.White)
+                TranslatedText[x].Background = Brushes.White;
+            if (((TextBox)sender).Text.Length == 0)
+                TranslatedText[x].Background = Brushes.Red;
+
             if (length > 0)
             {
                 Dispatcher.BeginInvoke(new Action(() =>
@@ -258,7 +265,10 @@ namespace Translator
 
                     if (translation_active && translation_active2)
                     {
-                        TranslatedText.Add(new TextBox() { Text = substrings2[3], Height = 24, MaxLength = y, FontSize = 16 });
+                        if (substrings2[3].Length > 0)
+                            TranslatedText.Add(new TextBox() { Text = substrings2[3], Height = 24, MaxLength = y, FontSize = 16 });
+                        else
+                            TranslatedText.Add(new TextBox() { Text = substrings2[3], Height = 24, MaxLength = y, FontSize = 16, Background = Brushes.Red });
                         TextAvaiLength.Add(new TextBox() { Text = (y - System.Text.Encoding.UTF8.GetBytes(substrings2[3]).Length).ToString(), Height = 24, IsReadOnly = true, FontSize = 16 });
                     }
                     else
@@ -347,7 +357,7 @@ namespace Translator
                     Progress.Value++;
                 }));
             }
-            
+
             for (int x = 0; x < fix_bytes.Length; x = x + 2)
             {
 
@@ -370,7 +380,7 @@ namespace Translator
             }
             Dispatcher.BeginInvoke(new Action(() =>
             {
-                File.WriteAllBytes(Path.GetDirectoryName(fwname) + @"\" + Path.GetFileNameWithoutExtension(fwname) + "_" + Language.Text + ".fw", data);
+                File.WriteAllBytes(Path.GetDirectoryName(fwname) + @"\" + Path.GetFileNameWithoutExtension(fwname) + "_" + Language.Text + datefn + ".fw", data);
                 SaveBtn.IsEnabled = true;
                 PatchFirmwareBtn.IsEnabled = true;
                 ddmm_patch.IsEnabled = true;
@@ -384,6 +394,8 @@ namespace Translator
             ddmm_patch.IsEnabled = false;
 
             ddmm_patch_check = ddmm_patch.IsChecked == true;
+
+            if (ddmm_patch_check) datefn = "_dmpatch"; else datefn = "";
 
             // Configure open file dialog box
             Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
