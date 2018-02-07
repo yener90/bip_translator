@@ -1,4 +1,4 @@
-#0.1.0.43
+#0.1.0.80
 00000001|47 65 74 20 75 70 20 61 6E 64 20 6D 6F 76 65|Get up and move|Get up and move
 00000001|43 68 61 72 67 69 6E 67 2E 2E 2E|Charging...|Charging...
 00000001|42 61 74 74 65 72 79 20 63 68 61 72 67 65 64|Battery charged|Battery charged
@@ -130,8 +130,10 @@
 00000001|46 61 63 74 6F 72 79 20 52 65 73 65 74 00 00|Factory Reset|Factory Reset
 00000001|54 75 72 6E 20 6F 66 66 00 00 00|Turn off|Turn off
 00000001|41 62 6F 75 74 00 00|About|About
+00000001|44 69 73 63 6F 6E 6E 65 63 74 65 64 00 00 00|Disconnected|Disconnected
 00000001|4D 61 72 6B 20 61 6C 6C 20 61 73 20 72 65 61 64 00 00 00|Mark all as read|Mark all as read
 00000001|44 65 6C 65 74 65 64|Deleted|Deleted
+00000001|44 65 6C 65 74 65 00|Delete|Delete
 00000001|4E 6F 20 6E 65 77 20 6E 6F 74 69 66 69 63 61 74 69 6F 6E 73 00 00 00|No new notifications|No new notifications
 00000001|41 20 6E 65 77 20 6D 65 73 73 61 67 65 20 69 73 20 72 65 63 65 69 76 65 64 2C 20 76 69 65 77 20 69 74 20 6F 6E 20 74 68 65 20 70 68 6F 6E 65|A new message is received, view it on the phone|A new message is received, view it on the phone
 00000001|49 6E 63 6F 6D 69 6E 67 20 63 61 6C 6C 73 00|Incoming calls|Incoming calls
@@ -184,6 +186,8 @@
 00000001|53 74 72 69 64 65 00|Stride|Stride
 00000001|53 74 65 70 73 00 00|Steps|Steps
 00000001|53 74 65 70 20 66 72 65 71 75 65 6E 63 79 00|Step frequency|Step frequency
+00000001|44 61 74 61 20 69 73 20 6E 6F 74 20 73 79 6E 63 68 72 6F 6E 69 7A 65 64 2C 00 00|Data is not synchronized,|Data is not synchronized,
+00000001|64 65 6C 65 74 65 3F|delete?|delete?
 00000001|64 65 6C 65 74 65 00|delete|delete
 00000001|41 75 74 6F 00 00 00|Auto|Auto
 00000001|4E 6F 77|Now|Now
