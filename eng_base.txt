@@ -1,4 +1,4 @@
-#0.1.0.80
+#0.1.0.87
 00000001|47 65 74 20 75 70 20 61 6E 64 20 6D 6F 76 65|Get up and move|Get up and move
 00000001|43 68 61 72 67 69 6E 67 2E 2E 2E|Charging...|Charging...
 00000001|42 61 74 74 65 72 79 20 63 68 61 72 67 65 64|Battery charged|Battery charged
@@ -19,6 +19,9 @@
 00000001|43 6C 65 61 72 00 00|Clear|Clear
 00000001|73 65 73 73 69 6F 6E|session|session
 00000001|6F 76 65 72 20 31 68|over 1h|over 1h
+00000001|57 61 74 63 68 20 75 70 64 61 74 65 20 66 61 69 6C 00 00|Watch update fail|Watch update fail
+00000001|52 65 73 6F 75 72 63 65 73 20 75 70 64 61 74 65 20 66 61 69 6C 00 00|Resources update fail|Resources update fail
+00000001|46 6F 6E 74 20 75 70 64 61 74 65 20 66 61 69 6C 00 00 00|Font update fail|Font update fail
 00000001|43 6F 75 6C 64 6E 27 74 20 75 70 64 61 74 65|Couldn't update|Couldn't update
 00000001|44 49 41 4C 20 75 70 64 61 74 65 20 66 61 69 6C 00 00 00|DIAL update fail|DIAL update fail
 00000001|57 61 74 63 68 20 75 70 64 61 74 65 64 00 00|Watch updated|Watch updated
@@ -26,9 +29,11 @@
 00000001|41 2D 47 50 53 20 75 70 64 61 74 65 64 00 00|A-GPS updated|A-GPS updated
 00000001|47 50 53 20 75 70 64 61 74 65 64|GPS updated|GPS updated
 00000001|44 49 41 4C 20 75 70 64 61 74 65 64 00 00 00|DIAL updated|DIAL updated
+00000001|46 6F 6E 74 20 75 70 64 61 74 65 64 00 00 00|Font updated|Font updated
 00000001|73 75 63 63 65 73 73 66 75 6C 6C 79 00 00 00|successfully|successfully
 00000001|55 70 64 61 74 69 6E 67 20 47 50 53 2E 2E 2E|Updating GPS...|Updating GPS...
 00000001|55 70 64 61 74 69 6E 67 20 44 49 41 4C 2E 2E 2E 00 00 00|Updating DIAL...|Updating DIAL...
+00000001|55 70 64 61 74 69 6E 67 20 46 6F 6E 74 2E 2E 2E 00 00 00|Updating Font...|Updating Font...
 00000001|55 70 64 61 74 69 6E 67 2E 2E 2E|Updating...|Updating...
 00000001|55 70 64 61 74 69 6E 67 20 72 65 73 6F 75 72 63 65 73 2E 2E 2E 00 00|Updating resources...|Updating resources...
 00000001|55 70 64 61 74 69 6E 67 20 41 2D 47 50 53 2E 2E 2E 00 00|Updating A-GPS...|Updating A-GPS...

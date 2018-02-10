@@ -274,7 +274,10 @@ namespace Translator
                     }
                     else
                     {
-                        TranslatedText.Add(new TextBox() { Height = 24, MaxLength = y, FontSize = 16 });
+                        if (translation_active)
+                            TranslatedText.Add(new TextBox() { Height = 24, MaxLength = y, FontSize = 16, Background = Brushes.Red });
+                        else
+                            TranslatedText.Add(new TextBox() { Height = 24, MaxLength = y, FontSize = 16 });
                         TextAvaiLength.Add(new TextBox() { Text = y.ToString(), Height = 24, IsReadOnly = true, FontSize = 16 });
                     }
                     TranslatedText[x - 1].TextChanged += TextBox_TextChanged;
