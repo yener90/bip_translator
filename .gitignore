@@ -4,3 +4,5 @@ Translator/Translator/bin/
 Translator/Translator/obj/
 Translator/Translator/publish/
 en2de.txt
+en2tr.txt
+*.fw
