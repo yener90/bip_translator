@@ -210,3 +210,4 @@
 00000001|4F 70 65 6E 00 00 00|Open|Open
 00000001|50 68 6F 6E 65 20 61 6C 61 72 6D 20 73 6F 75 6E 64 73 00|Phone alarm sounds|Phone alarm sounds
 00000001|41 6C 6C 20 64 61 74 61 20 77 69 6C 6C 20 62 65 20 72 65 73 65 74 2C|All data will be reset,|All data will be reset,
+00000001|41 75 74 6F 20 70 61 75 73 65|Auto Pause|Auto Pause
